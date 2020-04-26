@@ -78,12 +78,12 @@
     <LibraryPath>C:\Users\Abel\source\repos\Holography\Holography\lib;C:\opencv\build\x64\vc15\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>C:\opencv\build\include;C:\Users\Abel\source\repos\Holography\fftw-3.3.5-dll64;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\opencv\build\x64\vc15\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(FFTW3_INCLUDE_PATH);$(OPENCV_INCLUDE_PATH);$(IncludePath)</IncludePath>
+    <LibraryPath>$(OPENCV_LIB_PATH);$(FFTW3_LIB_PATH);C:\opencv\build\x64\vc15\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IncludePath>C:\opencv\build\include;C:\Users\Abel\source\repos\Holography\fftw-3.3.5-dll64;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\Abel\source\repos\Holography\Holography\lib;C:\opencv\build\x64\vc15\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(FFTW3_INCLUDE_PATH);$(OPENCV_INCLUDE_PATH);$(IncludePath)</IncludePath>
+    <LibraryPath>$(OPENCV_LIB_PATH);$(FFTW3_LIB_PATH);C:\Users\Abel\source\repos\Holography\Holography\lib;C:\opencv\build\x64\vc15\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
