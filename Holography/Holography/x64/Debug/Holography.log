@@ -1,0 +1,18 @@
+﻿  FresnelDiffraction.cpp
+C:\Users\Abel\source\repos\Holography\Holography\FresnelDiffraction.cpp(128,45): warning C4244: '=': 'double'에서 '_Tp'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Tp=uchar
+          ]
+C:\Users\Abel\source\repos\Holography\Holography\FresnelDiffraction.cpp(140,49): warning C4244: '=': 'double'에서 '_Tp'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Tp=uchar
+          ]
+C:\Users\Abel\source\repos\Holography\Holography\FresnelDiffraction.cpp(155,45): warning C4244: '=': 'double'에서 '_Tp'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Tp=uchar
+          ]
+C:\Users\Abel\source\repos\Holography\Holography\FresnelDiffraction.cpp(207,12): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Holography.vcxproj -> C:\Users\Abel\source\repos\Holography\x64\Debug\Holography.exe
